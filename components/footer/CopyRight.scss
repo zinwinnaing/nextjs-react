@@ -1,0 +1,20 @@
+.copyright-area {
+  // background: #243a48;
+  // background: $webkit-linear-background;
+  // background: $linear-background;
+  background-color: #0b3b7c;
+  padding: 20px 0;
+  .copyright-divider {
+    border-top: 1px solid #fff;
+  }
+  .copyright-text {
+    padding-top: 8px;
+    p {
+      font-size: 12px;
+      color: #b3b6b7;
+    }
+    a {
+      color: lighten($brandColor, 30);
+    }
+  }
+}

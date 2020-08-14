@@ -1,0 +1,30 @@
+@import './nprogress.scss';
+@import './style.scss';
+@import '../../components/layout/container/Container.scss';
+@import '../../components/burgerMenu/BurgerMenu.scss';
+@import '../../components/button/Button.scss';
+@import '../../components/card/Card.scss';
+@import '../../components/footer/Footer.scss';
+@import '../../components/footer/CopyRight.scss';
+@import '../../components/navbar/Navbar.scss';
+@import '../../pages/404.scss';
+@import './animate.scss';
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Pyidaungsu';
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  // font-family: "Dosis", sans-serif;
+  // font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  //   'Helvetica Neue', Arial, sans-serif;
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+//     monospace;
+// }

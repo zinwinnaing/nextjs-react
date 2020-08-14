@@ -1,0 +1,37 @@
+.not-found-404-container {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain; // background-color: #3f3d56;
+  background-color: #000;
+
+  height: 100vh;
+  .not-found-404-div {
+    text-align: center;
+    .not-found-404-text {
+      color: $brandColor;
+      font-size: 200px;
+      letter-spacing: 30px;
+      text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+      // text-decoration-style: ;
+    }
+    .not-found-404-text2 {
+      color: $brandColor2nd;
+      text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+      letter-spacing: 2px;
+    }
+    .not-found-404-btn {
+      background-color: rgb(44, 43, 43);
+      border: none;
+      outline: none;
+      width: 300px;
+      padding: 1rem;
+      font-size: 50px;
+      color: $brandColor2nd;
+      font-weight: bold;
+      border-radius: 60px;
+      &:hover {
+        box-shadow: 0px 10px 15px 2px rgba(160, 158, 175, 0.39);
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.button-background {
+  background-color: $brandColor2nd;
+  color: $white;
+  border: 1px solid $brandColor2nd;
+  outline: none;
+  line-height: initial;
+  border-radius: 3px;
+  transition: 0.5s;
+  padding: 10px 32px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: $white;
+    color: $brandColor2nd;
+  }
+}
