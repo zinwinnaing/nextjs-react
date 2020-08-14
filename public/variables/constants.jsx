@@ -23,5 +23,5 @@ export const CONTACT = {
 export const YOUTUBE_URL =
   'https://www.youtube.com/channel/UCogvzWsh4W2GaUPZEI89BLw';
 export const IG_URL = 'https://www.instagram.com/fratello_myanmar/';
-export const MAP_API_KEY = 'AIzaSyDmqa4GpER_guZzk2h4QwdbqoR6yzhD1_o';
+// export const MAP_API_KEY = 'AIzaSyDmqa4GpER_guZzk2h4QwdbqoR6yzhD1_o';
 export const OG_IMAGE = '/image/logo.jpg';
